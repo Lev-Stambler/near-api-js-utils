@@ -1,0 +1,14 @@
+{
+  "name": "@near-utils/frontend",
+  "main": "build/index.js",
+  "scripts": {
+    "build-esm": "tsc -m es6 --outDir dist-esm"
+  },
+  "dependencies": {
+    "near-api-js": "^0.44.2",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0"
+  }
+}
